@@ -106,16 +106,13 @@ if (ham || cola || frie === 3 || nuggets) {
 
 // Выполняется ли условие?
 
-let ham;
+let ham; //undefined
 const frie = NaN;
 const cola = 0;
 const nuggets = 2;
 
-if ((ham && cola) || (fries === 3 && nuggets)) {
+if ((ham && cola) || (frie === 3 && nuggets)) {
   console.log("Done!");
-}
-
-let sun;
-console.log(sun);
-if (sun) {
+} else {
+  console.log("Condition isn't met");
 }
