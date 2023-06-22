@@ -68,11 +68,7 @@ return arr; */
 let arr = [5, 6, 7, 8, 9, 10];
 
 arr.forEach(function (item, i, array) {
-  /* console.log(`Элемент: ${item * 2}
+  console.log(`Элемент: ${item * 2}
    Индекс: ${i}
-    Массив: ${array} `); */
-  if (typeof item === "number") {
-    item * 2;
-  }
-  console.log(arr);
+    Массив: ${array} `);
 });
