@@ -11,8 +11,7 @@ function arr(value) {
   let arrow = [value - 1, value, value + 1];
   return arrow;
 }
-
-let arrResult = arr(5);
+let arrResult = arr(3);
 console.log(arrResult);
 
 function test(baza, progress) {
